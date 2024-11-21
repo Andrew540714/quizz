@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+  <h1>Question 4: In "Minecraft," what do players primarily use to gather resources?</h1>
+  <form action="/answers" method="post">
+  <input type="radio" id="pickaxe" name="question4" value="Pickaxe">
+  <label for="html">Pickaxe</label><br>
+  <input type="radio" id="sword" name="question4" value="Sword">
+  <label for="css">Sword</label><br>
+  <input type="radio" id="bow" name="question4" value=" Bow and Arrow">
+  <label for="javascript"> Bow and Arrow</label><br><br>
+  <input type="radio" id="rod" name="question4" value=" Fishing Rod">
+  <label for="html"> Fishing Rod</label><br>
+   <input type="submit" value="Submit">
+  </form>
+
+
+  <ul>
+    <li><a href="/page1">Restart</a></li
+  </ul>
+{% endblock %}
+
+

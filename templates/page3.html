@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+  <h1>Question 3: Which video game features the character Master Chief?</h1>
+  <form action="/page4" method="post">
+  <input type="radio" id="cod" name="question3" value="Call of Duty">
+  <label for="html">Call of Duty</label><br>
+  <input type="radio" id="halo" name="question3" value="Halo">
+  <label for="css">Halo</label><br>
+  <input type="radio" id="gear" name="question3" value="Gears of War">
+  <label for="javascript">Gears of War</label><br><br>
+  <input type="radio" id="battle" name="question3" value="Battlefield">
+  <label for="html">Battlefield</label><br>
+   <input type="submit" value="Submit">
+  </form>
+
+  <ul>
+    <li><a href="/page1">Restart</a></li
+  </ul>
+{% endblock %}

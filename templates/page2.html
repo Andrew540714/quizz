@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+  <h1>Question 2: What is the main objective of the game "Among Us"?</h1>
+  <form action="/page3" method="post">
+  <input type="radio" id="coins" name="question2" value="Collect coins">
+  <label for="html">Collect coins</label><br>
+  <input type="radio" id="shelter" name="question2" value="Build a shelter">
+  <label for="css">Build a shelter</label><br>
+  <input type="radio" id="dark" name="question2" value="Identify the impostor">
+  <label for="javascript">Identify the impostor</label><br><br>
+  <input type="radio" id="race" name="question2" value=" Complete a race">
+  <label for="html"> Complete a race</label><br>
+   <input type="submit" value="Submit">
+  </form>
+
+
+  <ul>
+    <li><a href="/page1">Restart</a></li
+  </ul>
+{% endblock %}

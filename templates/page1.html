@@ -1,0 +1,17 @@
+  {% extends "layout.html" %}
+  {% block title %}Home{% endblock %}
+  {% block content %}
+ <h1>Question 1: In which game does the character Link attempt to rescue Princess Zelda?</h1>
+ <form action="/page2" method="post">
+   <input type="radio" id="final" name="question1" value="Final Fantasy VII">
+   <label for="final">Final Fantasy VII</label><br>
+   <input type="radio" id="zelda" name="question1" value="The Legend of Zelda">
+   <label for="zelda">The Legend of Zelda</label><br>
+   <input type="radio" id="dark" name="question1" value="Dark Souls">
+   <label for="dark">Dark Souls</label><br><br>
+   <input type="radio" id="castle" name="question1" value="Castlevania">
+   <label for="castle">Castlevania</label><br>
+   <input type="submit" value="Submit">
+ </form> 
+
+{% endblock %}

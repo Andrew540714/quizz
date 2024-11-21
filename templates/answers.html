@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}Page 3--Now we know everything!{% endblock %}
+
+{% block content %}
+  <h1>Results:</h1>
+
+<ul>
+ <li> Your first answer was: {{ first }} </li>
+ <li> Your second answer was: {{ second }} </li>
+ <li> Your third answer was: {{ third }} </li>
+ <li> Your fourth answer was: {{ fourth }} </li>
+ <li> Your Score Is {{ score }}/4: </li>
+</ul>
+
+<a href="/startOver">Start Over</a>
+
+
+
+{% endblock %}
